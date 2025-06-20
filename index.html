@@ -5,14 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./assets/css/styles.min.css" />
-    <link rel="icon" type="image/svg+xml" href="./assets/img/favicon.svg" />
+    <link rel="icon" type="image/svg+xml" href="./assets/img/logo.png" />
     <link rel="stylesheet" href="https://use.typekit.net/kse0maf.css" />
 
     <!-- Primary Meta Tags -->
-    <title>Israel Mitolu | Frontend Engineer and Technical Writer </title>
+    <title>Nandakishore V </title>
     <meta
       name="title"
-      content="Israel Mitolu | Frontend Engineer and Technical Writer"
+      content="Nandakishore V"
     />
     <meta
       name="Keywords"
@@ -61,19 +61,68 @@
   </head>
 
   <body class="body-wrap">
-    <div class="intro">
-      <div class="intro-text">
-        <h2 class="hide">
-          <span class="text">Creating innovations</span>
-        </h2>
-        <h2 class="hide">
-          <span class="text">For Everyday</span>
-        </h2>
-        <h2 class="hide">
-          <span class="text">people.</span>
-        </h2>
-      </div>
-      <button class="intro-btn" onclick="fadeOut()">EXPLORE</button>
+  <div class="intro">
+    <style>
+      .intro-text h2 {
+        opacity: 0;
+        animation: fadeIn 2s forwards;
+      }
+
+      .intro-text h2:nth-child(1) {
+        animation-delay: 0s;
+      }
+
+      .intro-text h2:nth-child(2) {
+        animation-delay: 2.5s;
+      }
+
+      .intro-text h2:nth-child(3) {
+        animation-delay: 5s;
+      }
+
+      @keyframes fadeIn {
+        from {
+          opacity: 0;
+          transform: translateY(10px);
+        }
+        to {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+
+      .intro-btn {
+        opacity: 0;
+        animation: showBtn 1s forwards;
+        animation-delay: 7.5s;
+      }
+
+      @keyframes showBtn {
+        to {
+          opacity: 1;
+        }
+      }
+    </style>
+
+    <div class="intro-text">
+      <h2 class="hide">
+        <span class="text">Establishing secure uplink...</span>
+      </h2>
+      <h2 class="hide">
+        <span class="text">Injecting creativity into the mainframe...</span>
+      </h2>
+      <h2 class="hide">
+        <span class="text">Transmission channel open.</span>
+      </h2>
+    </div>
+
+    <button class="intro-btn" onclick="fadeOut()">INITIATE</button>
+  </div>
+
+  <div class="slider"></div>
+  <div class="slider-2"></div>
+</body>
+
     </div>
     <div class="slider"></div>
     <div class="slider-2"></div>
@@ -125,16 +174,17 @@
           </div>
         </div>
         <a href="index.html" class="logo" aria-label="Home">
-          <img src="./assets/img/favicon.svg" alt="Logo" />
+          <img src="./assets/img/avatar.png" alt="Logo" style="width: 100px; height: auto;" />
+
         </a>
 
         <div class="inner">
           <span>i</span>
           <h1>Hello 👋</h1>
           <p>
-            Thanks for visiting my Portfolio website! If you like what you see
-            and you need me to work on a product, send me a
-            <a href="#contact">message</a>
+            Thanks for visiting my Portfolio website! You can 
+            <a href="#contact">contact</a>
+            me
           </p>
         </div>
 
@@ -147,61 +197,75 @@
         </div>
 
         <div class="landing-text">
-          <h1>Israel Mitolu</h1>
-          <p
-            >My approach to frontend engineering and technical writing is
-            simple:
-            <i>create with purpose, empathy, and attention to detail.</i></p
-          >
+          <h1>Nandakishore V</h1>
+          <p>
+  I break things to understand them—
+  <i>then rebuild them stronger, smarter, safer.</i>
+</p>
+
         </div>
       </header>
 
       <main>
         <!-- About Section -->
-        <section class="about" id="about">
-          <div class="container">
-            <div class="profile-img">
-              <img
-                src="./assets/img/IMG_20210217_173633899-min.jpg"
-                alt="Israel Oyetunji Mitolu"
-              />
-            </div>
-            <div class="about-content">
-              <div class="about-heading">
-                <h2>About Me</h2>
-              </div>
-              <p
-                >Hello there, I'm Israel Mitolu - a frontend engineer and
-                technical writer with a passion for creating digital experiences
-                that are both beautiful and accessible. My mission is to build
-                websites and applications that delight users, while also making
-                them easy to use and navigate for everyone.
-                <br />
-                <br />
-                With 3+ years of experience in frontend development, I
-                specialize in creating responsive, user-friendly interfaces
-                using ReactJS, NextJS, TailwindCSS, and Typescript. I pay close
-                attention to detail, always striving to make sure that every
-                interaction is smooth, intuitive, and visually appealing. I'm
-                also a strong advocate for web accessibility, ensuring that all
-                my projects are accessible to all.
-                <br />
-                <br />
-                I'm also a passionate writer, with a
-                <a href="https://israelmitolu.hashnode.dev" target="_blank"
-                  >blog</a
-                >
-                and articles on
-                <a href="https://linktr.ee/israelmitolu" target="_blank"
-                  >various platforms</a
-                >, where I share my expertise and insights into the world of
-                frontend development. I enjoy sharing my knowledge with others
-                and helping fellow developers understand and be creative with
-                web technologies.
-              </p>
+<section class="about" id="about">
+  <style>
+    .futuristic-frame {
+      display: inline-block;
+      padding: 8px;
+      border: 2px solid transparent;
+      background: linear-gradient(45deg, #00f7ff, #00f7ff);
+      background-size: 600% 600%;
+      animation: borderGlow 6s linear infinite;
+      border-radius: 12px;
+      box-shadow: 0 0 20px #0ff, 0 0 40px #0ff inset;
+    }
 
+    .futuristic-frame img {
+      display: block;
+      width: 250px;
+      height: auto;
+      border-radius: 8px;
+      border: 2px solid #111;
+    }
+
+    @keyframes borderGlow {
+      0% {
+        background-position: 0% 50%;
+      }
+      50% {
+        background-position: 100% 50%;
+      }
+      100% {
+        background-position: 0% 50%;
+      }
+    }
+  </style>
+
+  <div class="container">
+    <div class="profile-img">
+      <div class="futuristic-frame">
+        <img src="./assets/img/photo.jpg" alt="Nandakishore V" />
+      </div>
+    </div>
+    <div class="about-content">
+      <div class="about-heading">
+        <h2>About Me</h2>
+      </div>
+
+<p>
+  Hey, I’m <strong>Nandakishore V.</strong> — <strong>cyber explorer</strong>, <strong>reverse engineer</strong>, and <strong>cloud ops tinkerer</strong>.
+  <br />
+  I hunt flags in <strong>CTFs</strong>, tear binaries apart just to rebuild them better, and dive deep into <strong>cloud security</strong>. If there’s a system, I’ll probe it. If there’s a gap, I’ll patch it — or exploit it first.
+  <br />
+  My passion lies at the intersection of <strong>offense and automation</strong> — from <strong>pwn challenges</strong> to <strong>SecOps pipelines</strong>. I believe real security is built by those who break things first.
+  <br />
+  I also <strong>run tech events</strong>, teach <strong>workshops</strong>, and bring communities together to decode the world of <strong>cyber and cloud</strong>.
+  <br />
+  This isn’t just a portfolio. It’s a <strong>logbook</strong>, a <strong>war room</strong>, a <strong>sandbox</strong>. Welcome to <strong>my zone</strong>.
+</p>
               <div class="about-cta">
-                <a href="#contact" class="skills-cta">Hire me</a>
+                <a href="#contact" class="skills-cta">Connect</a>
                 <span>—</span>
                 <a href="./about/" class="exp-cta">More about me</a>
               </div>
@@ -504,40 +568,46 @@
               Got a question, proposal or project or want to work <br />
               together on something? Feel free to reach out.
             </div>
-            <form action="POST" data-netlify="true">
-              <div class="input-row">
-                <div class="side"
-                  ><label for="name">Your Name</label
-                  ><input
-                    placeholder="Enter Your name"
-                    name="name"
-                    id="name"
-                    type="text"
-                    required=""
-                    value=""
-                /></div>
-                <div class="side"
-                  ><label for="email">Your Email</label
-                  ><input
-                    placeholder="Enter Your email address"
-                    name="email"
-                    id="email"
-                    type="email"
-                    required=""
-                    value=""
-                /></div>
-              </div>
-              <div class="textarea">
-                <label for="message">Your Message</label
-                ><textarea
-                  name="message"
-                  id="message"
-                  placeholder="Hi, I think we need you to work on this particular product. Reach out as soon as you can"
-                  required=""
-                ></textarea>
-              </div>
-              <button type="submit">Send Message.</button>
-            </form>
+<form action="https://formsubmit.co/kishore181206@gmail.com" method="POST">
+  <input type="hidden" name="_captcha" value="false">
+  <input type="hidden" name="_subject" value="New message from portfolio!">
+
+  <div class="input-row">
+    <div class="side">
+      <label for="name">Your Name</label>
+      <input
+        placeholder="Enter Your name"
+        name="name"
+        id="name"
+        type="text"
+        required
+      />
+    </div>
+    <div class="side">
+      <label for="email">Your Email</label>
+      <input
+        placeholder="Enter Your email address"
+        name="email"
+        id="email"
+        type="email"
+        required
+      />
+    </div>
+  </div>
+
+  <div class="textarea">
+    <label for="message">Your Message</label>
+    <textarea
+      name="message"
+      id="message"
+      placeholder="Hi, I think we need you to work on this particular product. Reach out as soon as you can"
+      required
+    ></textarea>
+  </div>
+
+  <button type="submit">Send Message.</button>
+</form>
+
           </div>
         </section>
       </main>
@@ -547,33 +617,18 @@
         <div class="footer-head">
           <h5>Say Hello</h5>
           <div class="link-container">
-            <div class="footer-links">
-              <p
-                ><a
-                  data-text="wa.me/israelmitolu"
-                  href="https://wa.me/+2348148751013"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  >wa.me/israelmitolu</a
-                ></p
-              >
-              <p
-                ><a
-                  data-text="israelmitolu@gmail.com"
-                  href="mailto:israelmitolu@gmail.com"
-                  >israelmitolu@gmail.com</a
-                ></p
-              >
-            </div>
-            <div class="footer-links">
-              <p><a href="https://twitter.com/israelmitolu">TW</a></p>
-              <p><a href="https://github.com/israelmitolu">GH</a></p>
-              <p><a href="https://linkedin.com/in/israeloyetunji">LN</a></p>
-              <p><a href="https://codepen.io/israelmitolu">CP</a></p>
-            </div>
+<div class="footer-links" style="display: flex; gap: 0.5rem; align-items: center;">
+  <a href="https://instagram.com/ascend_x"><ion-icon name="logo-instagram" style="font-size: 32px;"></ion-icon></a>
+  <a href="https://github.com/ascend-x"><ion-icon name="logo-github" style="font-size: 32px;"></ion-icon></a>
+  <a href="https://linkedin.com/in/ascend-x"><ion-icon name="logo-linkedin" style="font-size: 32px;"></ion-icon></a>
+  <a href="mailto:kishore181206@gmail.com"><ion-icon name="mail-outline" style="font-size: 32px;"></ion-icon></a>
+</div>
+
+
+
           </div>
         </div>
-        <div class="footer-copy"> &copy; Israel Mitolu 2022</div>
+        <div class="footer-copy"> &copy; Nandakishore V 2025</div>
       </footer>
     </div>
     <script
@@ -585,5 +640,46 @@
       src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
     ></script>
     <script src="./assets/js/app.js"></script>
+ <script>
+  function fadeOut() {
+    const audio = new Audio('./initiate.wav');
+    audio.play().catch(err => console.warn('Playback failed:', err));
+
+    const intro = document.querySelector(".intro");
+    const slider = document.querySelector(".slider");
+    const slider2 = document.querySelector(".slider-2");
+
+    // Start text animation immediately
+    gsap.to(".text", {
+      y: "0%",
+      duration: 1,
+      stagger: 0.25
+    });
+
+    // Slide intro section out
+    gsap.to(intro, {
+      y: "-100%",
+      duration: 1,
+      delay: 0.2 // slight delay to let text start animating first (optional)
+    });
+
+    // Slide both sliders out simultaneously with intro
+    gsap.to(slider, {
+      y: "-100%",
+      duration: 1.5,
+      delay: 0.2,
+      ease: "power4.out"
+    });
+
+    gsap.to(slider2, {
+      y: "-100%",
+      duration: 1.5,
+      delay: 0.2,
+      ease: "power4.out"
+    });
+  }
+</script>
+
+
   </body>
 </html>
