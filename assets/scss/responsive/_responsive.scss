@@ -1,3 +1,13 @@
+* {
+  outline: 1px solid rgba(255, 0, 0, 0.3); /* temporary debug */
+}
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  overflow-x: hidden;
+}
+
 @media screen and (max-width: 900px) {
   .about {
     padding: 2rem 2rem !important;
@@ -6,10 +16,19 @@
 
 @media screen and (max-width: 768px) {
   header {
-    .landing-text {
-      h1 {
-        padding: 3rem !important;
-      }
+   .landing-text h1 {
+  font-size: 3rem;
+  word-break: break-word;
+  max-width: 100%;
+  overflow-wrap: break-word;
+}
+
+@media screen and (max-width: 500px) {
+  .landing-text h1 {
+    font-size: 2rem;
+  }
+}
+
     }
     .nav-list {
       margin-top: 2.5rem;
