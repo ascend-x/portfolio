@@ -32,6 +32,22 @@
       font-size: 1.5rem !important;
     }
   }
+  .float-img {
+  animation: float 3s ease-in-out infinite;
+  display: inline-block;
+}
+@keyframes float {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
 
   .footer-links:nth-child(1) {
     margin-right: 5em !important;
@@ -90,6 +106,7 @@
       }
     }
   }
+
   .logo {
     top: 2.2rem;
     left: 1rem;
