@@ -2,7 +2,7 @@
 
 
 
-## Welcome to ED-Linux 1.0 LTS
+## Welcome to AX-Linux 1.0 LTS
 
 
 
