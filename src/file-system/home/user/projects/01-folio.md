@@ -3,7 +3,7 @@
 
 
 ## *Folio (This Website)*
-## 2022
+## 2025
 
 ### • TypeScript, WebGL,
 ### • Shader Language, Web Dev
