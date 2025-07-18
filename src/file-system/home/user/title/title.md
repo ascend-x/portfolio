@@ -7,7 +7,7 @@
 #  *ASCEND X*
 
 
-##   • CloudSecOps Engineer 
+##   • CloudSecOps Enthusiast
 ##   • CTF Player
 
 

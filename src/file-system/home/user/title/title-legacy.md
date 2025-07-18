@@ -8,7 +8,7 @@
 
 #  Hi there,
 #  *I'm Nandakishore V*
-##     — CloudSecOps Engineer 
+##     — CloudSecOps Enthusiast
 ##     — Cybersecurity graduate in
 ##        SRM University
 ##
