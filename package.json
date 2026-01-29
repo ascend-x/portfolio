@@ -1,11 +1,11 @@
 {
   "author": {
-    "name": "Ed Hinrichsen",
-    "url": "https://www.edwardh.io"
+    "name": "Nandakishore V",
+    "url": "https://ascend-x.dev"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/edhinrichsen/retro-computer-website.git"
+    "url": "git+https://github.com/ascend-x/portfolio.git"
   },
   "license": "MIT",
   "name": "retro-computer-website",
